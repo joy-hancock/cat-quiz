@@ -1,53 +1,54 @@
 const quizQuestions = [
 	{
-		question: 'What franchise would you rather play a game from?',
+		question: 'Do you like cats?',
 		answers: [
 			{
-				type: 'Microsoft',
-				content: 'Halo',
+				type: 'Cat',
+				content: 'No.',
 			},
 			{
-				type: 'Nintendo',
-				content: 'Pokemon',
+				type: 'Semi-Cat',
+				content: "I don't just like cats, I LOVE them!",
 			},
 			{
-				type: 'Sony',
-				content: 'Uncharted',
-			},
-		],
-	},
-	{
-		question: 'Which console would you prefer to play with friends?',
-		answers: [
-			{
-				type: 'Microsoft',
-				content: 'X-Box',
-			},
-			{
-				type: 'Nintendo',
-				content: 'Nintendo 64',
-			},
-			{
-				type: 'Sony',
-				content: 'Playstation 1',
+				type: 'Anti-Cat',
+				content: 'Sometimes. Some cats.',
 			},
 		],
 	},
 	{
 		question:
-			'Which of these racing franchises would you prefer to play a game from?',
+			'You are in a room with a birdcage containing a small canary. What are you thinking?',
 		answers: [
 			{
-				type: 'Microsoft',
-				content: 'Forza',
+				type: 'Cat',
+				content:
+					'Should I eat all of it at once, or keep the head as a souvenir?',
 			},
 			{
-				type: 'Nintendo',
-				content: 'Mario Kart',
+				type: 'Semi-Cat',
+				content: 'I need to keep Mr. Whiskers away from this cage.',
 			},
 			{
-				type: 'Sony',
-				content: 'Gran Turismo',
+				type: 'Anti-Cat',
+				content: 'What a pretty bird!',
+			},
+		],
+	},
+	{
+		question: 'Which cartoon character is your favorite?',
+		answers: [
+			{
+				type: 'Cat',
+				content: 'I hate cartoons',
+			},
+			{
+				type: 'Semi-Cat',
+				content: 'Hello Kitty',
+			},
+			{
+				type: 'Anti-Cat',
+				content: 'Jerry (from Tom and Jerry)',
 			},
 		],
 	},
@@ -55,33 +56,33 @@ const quizQuestions = [
 		question: 'Which of these games do you think is best?',
 		answers: [
 			{
-				type: 'Microsoft',
-				content: 'BioShock',
+				type: 'Cat',
+				content: 'Chasing the red dot',
 			},
 			{
-				type: 'Nintendo',
-				content: 'The Legend of Zelda: Ocarina of Time',
+				type: 'Semi-Cat',
+				content: 'Getting Mr. Whiskers to chase the red dot',
 			},
 			{
-				type: 'Sony',
-				content: 'Final Fantasy VII',
+				type: 'Anti-Cat',
+				content: 'Fetch',
 			},
 		],
 	},
 	{
-		question: 'What console would you prefer to own?',
+		question: 'Who owns the internet?',
 		answers: [
 			{
-				type: 'Microsoft',
-				content: 'X-Box One',
+				type: 'Cat',
+				content: 'Me',
 			},
 			{
-				type: 'Nintendo',
-				content: 'Wii U',
+				type: 'Semi-Cat',
+				content: "Isn't Grumpy Cat the best?",
 			},
 			{
-				type: 'Sony',
-				content: 'Playstation 4',
+				type: 'Anti-Cat',
+				content: 'Cats',
 			},
 		],
 	},
