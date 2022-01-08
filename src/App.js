@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import logo from './svg/logo.svg'
 import './App.css'
 import quizQuestions from './api/quizQuestions'
+import Question from './components/Question'
 import Quiz from './components/Quiz'
 import Result from './components/Result'
 
@@ -99,7 +99,7 @@ class App extends Component {
 		if (result.length === 1) {
 			this.setState({ result: result[0] })
 		} else {
-			this.setState({ result: 'Undetermined' })
+			this.setState({ result: 'possibly a dog' })
 		}
 	}
 
@@ -124,7 +124,6 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<div className='App-header'>
-					<img src={logo} className='App-logo' alt='logo' />
 					<h2>How Cat are You?</h2>
 				</div>
 				{this.state.result ? this.renderResult() : this.renderQuiz()}

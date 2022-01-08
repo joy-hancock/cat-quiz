@@ -1,89 +1,51 @@
 const quizQuestions = [
 	{
-		question: 'What franchise would you rather play a game from?',
+		question: 'Do you like cats?',
 		answers: [
-			{
-				type: 'Microsoft',
-				content: 'Halo',
-			},
-			{
-				type: 'Nintendo',
-				content: 'Pokemon',
-			},
-			{
-				type: 'Sony',
-				content: 'Uncharted',
-			},
+			`No`,
+			`I don't just like cats, I LOVE them!`,
+			`Sometimes. Some cats.`,
 		],
-	},
-	{
-		question: 'Which console would you prefer to play with friends?',
-		answers: [
-			{
-				type: 'Microsoft',
-				content: 'X-Box',
-			},
-			{
-				type: 'Nintendo',
-				content: 'Nintendo 64',
-			},
-			{
-				type: 'Sony',
-				content: 'Playstation 1',
-			},
-		],
+		catAnswerIndex: 0,
+		kittenAnswerIndex: 1,
+		dogAnswerIndex: 2,
 	},
 	{
 		question:
-			'Which of these racing franchises would you prefer to play a game from?',
+			'You are in a room with a birdcage containing a small canary. What are you thinking?',
 		answers: [
-			{
-				type: 'Microsoft',
-				content: 'Forza',
-			},
-			{
-				type: 'Nintendo',
-				content: 'Mario Kart',
-			},
-			{
-				type: 'Sony',
-				content: 'Gran Turismo',
-			},
+			`Should I eat all of it at once, or keep the head as a souvenir?`,
+			`I need to keep Mr. Whiskers away from this cage.`,
+			`What a pretty bird!`,
 		],
+		catAnswerIndex: 0,
+		kittenAnswerIndex: 1,
+		dogAnswerIndex: 2,
+	},
+	{
+		question: 'Which cartoon character is your favorite?',
+		answers: [`Catwoman`, `Hello Kitty`, `Goofy`],
+		catAnswerIndex: 0,
+		kittenAnswerIndex: 1,
+		dogAnswerIndex: 2,
 	},
 	{
 		question: 'Which of these games do you think is best?',
 		answers: [
-			{
-				type: 'Microsoft',
-				content: 'BioShock',
-			},
-			{
-				type: 'Nintendo',
-				content: 'The Legend of Zelda: Ocarina of Time',
-			},
-			{
-				type: 'Sony',
-				content: 'Final Fantasy VII',
-			},
+			`Chasing the red dot`,
+			`Getting Mr. Whiskers to chase the red dot.`,
+			`Fetch`,
 		],
+		catAnswerIndex: 0,
+		kittenAnswerIndex: 1,
+		dogAnswerIndex: 2,
 	},
 	{
-		question: 'What console would you prefer to own?',
-		answers: [
-			{
-				type: 'Microsoft',
-				content: 'X-Box One',
-			},
-			{
-				type: 'Nintendo',
-				content: 'Wii U',
-			},
-			{
-				type: 'Sony',
-				content: 'Playstation 4',
-			},
-		],
+		question: 'Who owns the internet?',
+		answers: [`Me`, `Cats`, `Cats`],
+		catAnswerIndex: 0,
+		kittenAnswerIndex: 1,
+		dogAnswerIndex: 2,
 	},
 ]
 
